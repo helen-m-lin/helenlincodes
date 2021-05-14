@@ -2,10 +2,10 @@
 layout: default
 title: Helen Lin
 ---
-      
+       
 <div class="section thm-dark helen">
 <h1>Helen Lin</h1>
-<button type="button"><a href="mailto:helen.m.lin@mail.mcgill.ca">Get in touch</a></button>
+<button type="button"><a href="mailto:{{ site.email }}">Get in touch</a></button>
 </div><!-- /.helen -->
 
 <div class="section thm-light home-skills">
@@ -13,11 +13,11 @@ title: Helen Lin
   <p>Web Dev | Analytics | UX/UI | Data Science and ML | Computer Vision & Graphics | Embedded Systems</p>        
 </div><!-- /.skills -->
 
-<div class="section thm-med">
+<div class="section thm-med home-edu">
 <h3>Education</h3>
 <h2>McGill University, B. Eng</h2>
   <p>Leaving my hometown of Toronto in 2016, I moved to Montreal where I spent 5 wonderful years learning, researching, and growing.</p>    
-  <button type="button"><a href="/education">Scholarships, Awards, and Relevant Courses</a></button>
+  <button type="button"><a href={{ site.data.nav[1].dev_link }}>Scholarships, Awards, and Relevant Courses</a></button>
 </div><!-- /.home-ed -->
 
 <div class="section thm-dark home-exp">
@@ -26,19 +26,19 @@ title: Helen Lin
   <p>From using brain imaging software to study the effects of Multiple Sclerosis to contributing to visualization tools used by researchers worldwide, I got my hands dirty and delved deep into student research throughout my undergraduate degree.
 </p> 
   <p>During my summers, I had the opportunity to do 3 industry internships, where I worked on software solutions at the Canadian Coast Guard and Microsoft.</p> 
-  <button type="button"><a href="/experience">Learn More</a></button>
+  <button type="button"><a href="{{ site.data.nav[2].dev_link }}">Learn More</a></button>
 </div><!-- /.home-exp -->
 
 <div class="section thm-light home-proj">
 <h2>Other Projects</h2>
   <p>My areas of interest include ML and data science, web development, analytics, and embedded systems.</p>    
-  <button type="button"><a href="/projects">What I'm Working On</a></button>
+  <button type="button"><a href="{{ site.data.nav[3].dev_link }}">What I'm Working On</a></button>
 </div><!-- /.home-proj -->
 
 <div class="section thm-med home-contact">
 <h2>Let's connect!</h2>
-  <p><a href="mailto:helen.m.lin@mail.mcgill.ca">Email</a> | 
-    <a href="https://linkedin.com/in/helen-m-lin/">LinkedIn</a> | 
-    <a href="https://github.com/helen-m-lin">GitHub</a> | 
+  <p><a href="mailto:{{ site.email }}">Email</a> | 
+    <a href="{{ site.linkedin}}">LinkedIn</a> | 
+    <a href="{{ site.github }}">GitHub</a> | 
     HackerRank</p>
 </div><!-- /.home-contact-->
