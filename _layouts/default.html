@@ -6,26 +6,10 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-	        	  <li><a href="/education">Education</a></li>
-        		  <li><a href="/experience">Experience</a></li>
-        		  <li><a href="/projects">Other Projects</a></li>
-              <li><a href="/contact">Contact</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+			{% include nav.html %}		
+
+			<div class="container">{{ content }}</div>
 			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:helen.m.lin@mail.mcgill.ca">helen.m.lin@mail.mcgill.ca</a></li>
-        		  	<li><a href="https://github.com/helen-m-lin">github.com/helen-m-lin</a></li>
-				<li>&copy All rights reserved</li>
-				</ul>
-			</footer>
+			{% include footer.html %}
 		</body>
 	</html>

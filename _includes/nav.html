@@ -1,0 +1,12 @@
+<nav class="thm-dark">
+    <ul>
+        <h3>helenlin.codes</h3>
+        {% for item in site.data.nav %}
+            <!-- use for local dev
+            <li><a href="{{ item.dev_link }}" {% if page.url == item.dev_link %}style="color: red;"{% endif %}>{{ item.name }}</a></li>
+            -->
+           <!-- prod routes -->
+           <li><a href="{{ item.prod_link }}" {% if page.url == item.prod_link %}style="color: red;"{% endif %}>{{ item.name }}</a></li>
+  {% endfor %}
+    </ul>
+</nav>
