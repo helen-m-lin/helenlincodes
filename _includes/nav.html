@@ -1,10 +1,6 @@
 <nav class="thm-dark">
-    <a class="nav-left" href="{{ site.data.nav[0].dev_link }}">helenlin.codes</a>
+    <a class="nav-left" href="{{ site.data.nav[0].prod_link }}">helenlin.codes</a>
     {% for item in site.data.nav reversed %}
-        <a href="{{ item.dev_link }}" {% if page.url == item.dev_link %}class="nav-curr"{% endif %}>{{ item.name }}</a>
-           
-           <!-- uncomment for prod
-           <li><a href="{{ item.prod_link }}" {% if page.url == item.prod_link %}class="nav-curr"{% endif %}>{{ item.name }}</a></li>
-           -->
+        <a href="{{ item.prod_link }}" {% if page.url == item.prod_link %}class="nav-curr"{% endif %}>{{ item.name }}</a>
     {% endfor %}
 </nav>
