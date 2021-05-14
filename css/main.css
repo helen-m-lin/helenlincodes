@@ -1,43 +1,131 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+html, body {
+    background-color: black;
+    height: 100%;
+    margin: 0px;
+    
+
 }
+
+/* nav and footer*/
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
     list-style: none;
-    font-weight: bold;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    padding: 10px 30px 10px 30px;
 }
+
+nav {
+    font-size: 1.3em;
+}
+nav h3 {
+    text-align: left;
+    display: inline;
+}
+nav ul {
+    padding: 50px 10px 10px 10px;
+}
+nav ul li:hover, nav a:hover {
+    text-decoration: none;
+    background-color: grey;
+}
+
+nav a{
+    background-color: inherit;
+}
+
+footer {
+    font-size: .8em;
+}
+footer ul {
+    padding: 30px 0px 30px 0px;
+}
+
+/* general */
+h1, h2, h3, p {
+    margin-block-start:0px;
+    margin-block-end:0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h1 {
+    font-size: 5em;
+    font-family:'Playfair Display', 'serif';
+}
+
+h2 {
+    font-size: 3em;
+    font-family:'Playfair Display', 'serif';
+    text-align: center;
+}
+
+/* check */
+h3 {
+    font-size: 2em;
+    font-family:'Playfair Display', 'serif';
+}
+
+p {
+    font-size: 1.3em;
+    font-family: Courier, monospace;
+    line-height: 1.4em;
+    color: #333;
+}
+
+
+li {
+    font-size: 1.3em;
+    font-family: Courier, monospace;
+    line-height: 1.4em;
+    color: #333;
+}
+
+/* interactive */
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
+
+button {
+    font-size: 1.3em;
+    font-family: Courier, monospace;
     line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    padding: 10px;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+
+button:hover {
+    background-color: grey;
+    text-decoration: none;
 }
 
-ul.posts li {
-    list-style: none;
+
+/* colour themes */
+
+/*TODO: revert colour at end*/
+.container {
+    background-color: yellow;
+}
+
+.section{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.thm-light {
+    background-color: #fcfcfc;
+}
+
+.thm-med {
+    background-color: burlywood;
+}
+
+.thm-dark, .thm-dark a, .thm-dark ul li, .thm-dark p{
+    background-color: #202020;
+    color: whitesmoke;
 }
