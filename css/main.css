@@ -1,15 +1,15 @@
 html, body {
-    background-color: yellow;
-
+    background-color: #202020;
     margin: 0;
     padding: 0;
 }
 
 .container { 
     margin: 0;
-    padding-top: 4%; /* for sticky nav bar */
+    padding-top: 4vh; /* for sticky nav bar */
     background-color: #202020;
 }
+
 .section{
     display: block;
     padding-left: 10%;
@@ -24,21 +24,32 @@ html, body {
 nav {
     position: fixed; /* Set the navbar to fixed position */
     top: 0;
-    width:100vw;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    min-height: 4vh;
 }
 
 nav a {
-    float: right;
     text-align: center;
     padding: 25px 30px 10px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: whitesmoke;
 }
 
-nav a:hover, nav a.nav-curr {
+.nav-right {
+    float: right;
+    overflow: hidden;
+    max-width: 50vw;
+}
+
+.nav-right a {
+    display: inline-block;
+}
+
+.nav-right a:hover {
     text-decoration: none;
     background-color: grey;
 }
@@ -51,22 +62,23 @@ nav a.nav-curr {
     pointer-events: none;
 }
 
-.nav-left {
+.nav-left, .nav-left:hover {
     padding: 5px 30px;
     float: left;
     font-size: 2.5em;
     font-weight: bold;
     font-family:'Playfair Display', 'serif';
     background-color: #202020;
+    text-decoration: none;
 }
 
 /* when mobile or small window, create side bar */
 @media screen and (max-width: 600px) {
-    nav a, .nav-left {
+    nav a, .nav-left, .nav-right {
         display: inline-block;
         float:none;
-      padding-left: 20%;
-      padding-right: 20%;
+      max-width: 100vw;
+      width: 100vw;
     }
  }
 
