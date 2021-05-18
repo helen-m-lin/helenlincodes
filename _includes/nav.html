@@ -1,6 +1,6 @@
 <nav class="thm-dark">
-    <a class="nav-left" href="{{ site.data.nav[0].prod_link }}">helenlin.codes</a>
+    <a class="nav-left" href="{{ site.url }}">helenlin.codes {{site.home}}</a>
     {% for item in site.data.nav reversed %}
-        <a href="{{ item.prod_link }}" {% if page.url == item.prod_link %}class="nav-curr"{% endif %}>{{ item.name }}</a>
+        <a href="{{ site.url | append: item.url }}" {% if page.url == item.url %}class="nav-curr"{% endif %}>{{ item.name }}</a>
     {% endfor %}
 </nav>

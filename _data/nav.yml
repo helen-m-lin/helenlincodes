@@ -1,15 +1,10 @@
 - name: Home
-  dev_link: /
-  prod_link: /helenlincodes/
+  url: /
 - name: Education
-  dev_link: /education.html
-  prod_link: /helenlincodes/education.html
+  url: /education.html
 - name: Experience
-  dev_link: /experience.html
-  prod_link: /helenlincodes/experience.html
+  url: /experience.html
 - name: Other Projects
-  dev_link: /projects.html
-  prod_link: /helenlincodes/projects.html
+  url: /projects.html
 - name: Contact
-  dev_link: /contact.html
-  prod_link: /helenlincodes/contact.html
+  url: /contact.html
