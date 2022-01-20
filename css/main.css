@@ -33,9 +33,9 @@ nav {
 
 nav a {
     text-align: center;
-    padding: 25px 30px 10px;
+    padding: 15px 30px 10px;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1em;
     color: whitesmoke;
 }
 
@@ -65,7 +65,7 @@ nav a.nav-curr {
 .nav-left, .nav-left:hover {
     padding: 5px 30px;
     float: left;
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-weight: bold;
     font-family:'Playfair Display', 'serif';
     background-color: #202020;
@@ -112,19 +112,18 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family:'Playfair Display', 'serif';
     text-align: center;
 }
 
-/* check */
 h3 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-family:'Playfair Display', 'serif';
 }
 
 p, li {
-    font-size: 1.1em;
+    font-size: 1em;
     font-family: Courier, monospace;
     line-height: 1.1em;
 }
@@ -136,7 +135,7 @@ a {
     font-family: Courier, monospace;
     line-height: 1.1em;
     text-decoration: none;
-    color: #999;
+    color:darkgray;
 }
 
 a:hover {
@@ -161,7 +160,7 @@ button:hover, button:hover a {
 /* SPECIFIC SECTIONS */
 
 .helen {
-    padding-top: 50vh;
+    padding-top: 40vh;
 }
 .home-edu, .mcgill {
     text-align: right;
@@ -178,16 +177,6 @@ button:hover, button:hover a {
     text-align: center;
 }
 
-/* doesn't work */
-h2 .home-edu {
-    text-align: right !important;
-}
-
-/* doesn't work */
-h2 .comp-vis, h2 .emb-sys, h2 .other {
-    text-align: left !important;
-}
-
 /*
 .awards {
     float: left;
@@ -196,8 +185,6 @@ h2 .comp-vis, h2 .emb-sys, h2 .other {
     float: right;
 }
 */
-
-
 
 /* colour themes */
 
@@ -209,6 +196,8 @@ h2 .comp-vis, h2 .emb-sys, h2 .other {
 
 .thm-med {
     background-color: #b39675;
+    background-color:teal;
+    background-color: indianred;
     color: #333;
 }
 
