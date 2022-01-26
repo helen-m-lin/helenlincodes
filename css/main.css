@@ -132,6 +132,10 @@ p, li {
     line-height: 1.1em;
 }
 
+.notice {
+    color: rgb(219, 144, 4);
+    font-weight: bold;
+}
 
 /* ---------- interactive ----------*/
 a {
@@ -164,22 +168,20 @@ button:hover, button:hover a {
 }
 
 /* "Contact" icons*/
-a:hover.icon {
+a:hover.icon-link {
     text-decoration: none;
   }
 
-  img.icon {
+img.icon {
    /* border: 1px solid #ddd; */
     border-radius: 50%;
     padding: 5px;
     width: 50px;
-    text-decoration: none;
-  }
+}
   
-  img:hover.icon{
+img:hover.icon-link{
     box-shadow: 0 0 5px 5px  #3BBA9C;
-    text-decoration: none;
-  }
+}
 
 
 /* ---------- SPECIFIC SECTIONS ----------*/
@@ -195,7 +197,7 @@ a:hover.icon {
     background-position: center;  
 }
    /* TODO: side by side div */
-.home-skills, .home-proj, .home-contact, .awards, .courses, .research, .internships {
+.home-skills, .home-contact, .awards, .courses, .research, .internships {
     text-align: center;
     list-style: none;
    /* width: 30%;
