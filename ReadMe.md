@@ -1,6 +1,7 @@
 # helenlin.codes Personal CV Website
 
 This is the code repository for my personal site! View it currently at https://helen-m-lin.github.io/helenlincodes/. 
+Please do not use any of this project including any images without my permission. Thanks!
 
 ## Local Dev setup to run Jekyll site
 
