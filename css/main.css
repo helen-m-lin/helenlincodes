@@ -191,7 +191,7 @@ img:hover.icon-link{
 }
 .home-edu, .mcgill {
     text-align: right;
-    background-image: url("/images/mcgill.jpg");
+    background-image: url("/helenlincodes/images/mcgill.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;  
