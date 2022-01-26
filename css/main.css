@@ -208,14 +208,14 @@ img:hover.icon-link{
     text-align: center;
 }
 
-/*
-.awards {
-    float: left;
+.internships, .research {
+    padding-left: 10%;
+    padding-right: 10%;
 }
-.courses{
-    float: right;
+
+.internships{
+    vertical-align: top;
 }
-*/
 
 /* ---------- Colour Themes ----------*/
 
