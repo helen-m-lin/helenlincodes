@@ -215,6 +215,10 @@ img:hover.icon-link{
 
 .internships{
     vertical-align: top;
+    background-image: url("/helenlincodes/images/coast-guard.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
 
 /* ---------- Colour Themes ----------*/
