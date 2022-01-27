@@ -1,0 +1,64 @@
+categories:
+  - name: Computer vision
+    id: comp-viz
+  - name: Machine learning
+    id: machine-learning
+  - name: Embedded systems
+    id: emb-sys
+  - name: Web dev
+    id: web-dev
+  - name: Games
+    id: games
+  - name: Python
+    id: py
+  - name: Java
+    id: java
+  - name: C#
+    id: cs
+  - name: JS/HTML/CSS
+    id: js
+  - name: C
+    id: c
+
+projects:
+# computer vision and ML
+  - name: Image Segmentation
+    categories: comp-viz py
+    description: K-means image segmentation created in Python.
+    image: assets/images/tree.jpg
+
+  - name: Person Detection
+    categories: comp-viz py machine-learning
+    description: Object classifier to detect people in mall video frames.
+    image: assets/images/mcgill.jpg
+  
+  - name: Face Detection
+    categories: comp-viz py machine-learning
+    description: Object classifier to detect faces in an image.
+    image: assets/images/coast-guard.jpg
+
+  # embedded systems
+  - name: Recycling Robot
+    categories: emb-sys java games
+    description: Autonomous recycling robot created with Java and LeJOS for a LEGO Mindstorms EV3. We built colour and weight detection systems to sort recycling cans, as well as fully autonomous navigation and obstacle avoidance (like a Roomba).
+    image: assets/images/mcgill.jpg
+  
+  - name: Tone Matching Game
+    categories: emb-sys c games
+    description: Tone matching singing game created with a STM32 development board. Works similar to a digital guitar tuner!
+    image: assets/images/mcgill.jpg
+
+
+  # web dev
+  - name: helenlincodes (this website!)
+    categories: web-dev js
+    description: I created this responsive website from scratch to practise my pure HTML/JS/CSS skills. Web hosting is done with Jekyll and GitHub Pages.
+    image: assets/images/coast-guard.jpg
+  
+
+  # games / other
+  - name: VR Flexspace
+    categories: cs games
+    description: I created a VR work- and flex- space in Unity with the Oculus Integration SDK. This is my exploration project to practise locomotion, presence and tracking, object interactions, etc, in VR. 
+    image: assets/images/coast-guard.jpg
+  

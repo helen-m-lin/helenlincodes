@@ -14,19 +14,35 @@ title: HL Projects
   </p>
 </div>
 
-<div class="section thm-med comp-vis">
+<div class="section thm-dark projects">
   <br>
   <br>
-  <h2>Computer Vision</h2>
-  <p>Image Segmentation | Face Detection | People Classifier | Guessers</p>
+  <h2>Projects</h2>
+  <hr>
+
+  <!-- filters  -->
+  <div id="filterButtons">
+    <button class="projects-btn curr" onclick="filterProjects('all')"> Show all</button>
+
+    {% for item in site.data.projects.categories %}
+    <button class="projects-btn" onclick="filterProjects('{{item.id | downcase}}')"> {{item.name}}</button>
+    {% endfor %}
+  </div>
+
+  <!-- project cards -->
+  <div class="projects-row">
+
+    {% for item in site.data.projects.projects %}
+    <div class="projects-column {{ item.categories }}">
+      <div class="projects-card">
+        <img src="{{ item.image }}" alt="{{ item.name }}" style="width:100%">
+        <h4>{{ item.name }}</h4>
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
 </div>
 
-<div class="section thm-dark emb-sys">
-  <h2>Embedded Systems</h2>
-  <p>Accelerometer | I/O devices | FPGA Projects | Recycling robot</p>
-</div>
-
-<div class="section thm-light other">
-  <h2>Other Projects</h2>
-  <p>Other Projects | Link to GitHub</p>
-</div>
+<script src="assets/js/projects.js"></script>
