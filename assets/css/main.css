@@ -191,7 +191,7 @@ img:hover.icon-link{
 }
 .home-edu, .mcgill {
     text-align: right;
-    background-image: url("/helenlincodes/images/mcgill.jpg");
+    background-image: url("/assets/images/mcgill.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;  
@@ -215,15 +215,13 @@ img:hover.icon-link{
 
 .internships{
     vertical-align: top;
-    background-image: url("/helenlincodes/images/coast-guard.jpg");
+    background-image: url("/assets/images/coast-guard.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center; 
 }
 
 /* ---------- Colour Themes ----------*/
-
-/*TODO: revert colour at end*/
 .thm-light {
     background-color: #fcfcfc;
     color: #202020;
@@ -243,7 +241,5 @@ img:hover.icon-link{
     background-color: #202020;
     color: whitesmoke;
 }
-
-
 
 /* ---------- Images ---------- */
