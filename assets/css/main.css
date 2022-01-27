@@ -155,15 +155,15 @@ button, button a, button {
     line-height: 1.1em;
     padding: 10px;
     background-color: #3BBA9C; /* rgb(228, 91, 98);*/
-    border-color: #3BBA9C; /* rgb(228, 91, 98);*/
     color: #fcfcfc;
     margin: 20px;
     border-radius: 8px;
+    border:none;
+
 }
 
 button:hover, button:hover a {
     background-color: darkgray;
-    border-color: darkgray;
     text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ img:hover.icon-link{
 }
 .home-edu, .mcgill {
     text-align: right;
-    background-image: url("/assets/images/mcgill.jpg");
+    background-image: url("/helenlincodes/assets/images/mcgill.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;  
@@ -204,7 +204,7 @@ img:hover.icon-link{
     display: flex-block; */
 }
 
-.comp-vis, .emb-sys, .other, .contact{
+.comp-vis, .emb-sys, .other, .contact, .wip{
     text-align: center;
 }
 
@@ -215,7 +215,7 @@ img:hover.icon-link{
 
 .internships{
     vertical-align: top;
-    background-image: url("/assets/images/coast-guard.jpg");
+    background-image: url("/helenlincodes/assets/images/coast-guard.jpg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center; 
