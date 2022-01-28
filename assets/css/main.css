@@ -202,7 +202,7 @@ img:hover.icon-link{
     background-position: center;  
 }
    /* TODO: side by side div */
-.home-skills, .home-contact, .awards, .courses, .research, .internships {
+.home-skills, .home-contact, .awards, .courses, .research, .internships, .projects {
     text-align: center;
     list-style: none;
    /* width: 30%;

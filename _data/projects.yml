@@ -21,44 +21,49 @@ categories:
     id: c
 
 projects:
+  - name: helenlincodes (this website!)
+    categories: web-dev js
+    description: I created this entire website from scratch to practise my pure HTML/JS/CSS skills. Web hosting is done with Jekyll and GitHub Pages.
+    image: assets/images/projects-this-site.png
+
 # computer vision and ML
   - name: Image Segmentation
     categories: comp-viz py
-    description: K-means image segmentation created in Python.
-    image: assets/images/tree.jpg
+    description: Image segmentation program using K-means clustering created in Python. Randomly initialized centers and adjustable number of clusters were used for 10 iternations. 
+    #Within each of 10 iterations, I used color proximity calculated through Euclidean distance from each point to each cluster center to determine 'closeness'.
+    image: assets/images/projects-segmentation-flower.PNG
 
   - name: Person Detection
     categories: comp-viz py machine-learning
-    description: Object classifier to detect people in mall video frames.
-    image: assets/images/mcgill.jpg
+    description: SVM person detection algorithm created in Python to detect people in mall video frames. Suitable features were computed using HoG in order to train the SVM. 
+    # The training set was created using 5000 random positive samples and 8000 negative samples. Finally, a sliding window program was created to detect people in new images, and the results were processed and displayed using bounding boxes.
+    image: assets/images/projects-person-detection.PNG
   
   - name: Face Detection
     categories: comp-viz py machine-learning
-    description: Object classifier to detect faces in an image.
-    image: assets/images/coast-guard.jpg
+    description: 100 random celebrity faces were used to form an artificial 'average face' and compute the top 'eigenfaces'. The program performs face detection using a sliding window on any input to find patches with low RMSE.
+    image: assets/images/projects-face-detection-eigenfaces.PNG
+
 
   # embedded systems
   - name: Recycling Robot
     categories: emb-sys java games
     description: Autonomous recycling robot created with Java and LeJOS for a LEGO Mindstorms EV3. We built colour and weight detection systems to sort recycling cans, as well as fully autonomous navigation and obstacle avoidance (like a Roomba).
-    image: assets/images/mcgill.jpg
+    image: assets/images/projects-robot-hw.PNG
   
   - name: Tone Matching Game
     categories: emb-sys c games
     description: Tone matching singing game created with a STM32 development board. Works similar to a digital guitar tuner!
-    image: assets/images/mcgill.jpg
+    image: assets/images/projects-stm32.png
+    
 
 
   # web dev
-  - name: helenlincodes (this website!)
-    categories: web-dev js
-    description: I created this responsive website from scratch to practise my pure HTML/JS/CSS skills. Web hosting is done with Jekyll and GitHub Pages.
-    image: assets/images/coast-guard.jpg
   
 
   # games / other
   - name: VR Flexspace
     categories: cs games
-    description: I created a VR work- and flex- space in Unity with the Oculus Integration SDK. This is my exploration project to practise locomotion, presence and tracking, object interactions, etc, in VR. 
-    image: assets/images/coast-guard.jpg
+    description: I created a VR work- and flex- space in Unity with the Oculus Integration SDK. This is my exploration project to practise building locomotion, presence and tracking, object interactions, etc, in VR. 
+    image: assets/images/projects-vr-room.png
   
