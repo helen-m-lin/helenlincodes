@@ -24,7 +24,7 @@ projects:
   - name: helenlincodes (this website!)
     categories: web-dev js
     description: I created this entire website from scratch to practise my pure HTML/JS/CSS skills. Web hosting is done with Jekyll and GitHub Pages.
-    image: assets/images/projects-this-site.png
+    image: assets/images/projects-this-site.PNG
 
 # computer vision and ML
   - name: Image Segmentation
