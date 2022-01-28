@@ -23,13 +23,13 @@ categories:
 projects:
   - name: helenlincodes (this website!)
     categories: web-dev js
-    description: I created this entire website from scratch to practise my pure HTML/JS/CSS skills. Web hosting is done with Jekyll and GitHub Pages.
+    description: I created this entire website from scratch to practice my pure HTML/JS/CSS skills. Web hosting is done with Jekyll and GitHub Pages.
     image: assets/images/projects-this-site.PNG
 
 # computer vision and ML
   - name: Image Segmentation
     categories: comp-viz py
-    description: Image segmentation program using K-means clustering created in Python. Randomly initialized centers and adjustable number of clusters were used for 10 iternations. 
+    description: Image segmentation program using K-means clustering created in Python. Randomly initialized centers and adjustable number of clusters were used for 10 iterations. 
     #Within each of 10 iterations, I used color proximity calculated through Euclidean distance from each point to each cluster center to determine 'closeness'.
     image: assets/images/projects-segmentation-flower.PNG
 
@@ -64,6 +64,6 @@ projects:
   # games / other
   - name: VR Flexspace
     categories: cs games
-    description: I created a VR work- and flex- space in Unity with the Oculus Integration SDK. This is my exploration project to practise building locomotion, presence and tracking, object interactions, etc, in VR. 
+    description: I created a VR work- and flex- space in Unity with the Oculus Integration SDK. This is my exploration project to practice building locomotion, presence and tracking, object interactions, etc, in VR. 
     image: assets/images/projects-vr-room.png
   
